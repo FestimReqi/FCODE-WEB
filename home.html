@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCODE-Website</title>
+    <meta name="description" content="Welcome to FCODE, where everything is fine, where the company that enters us will be another level">
+    <meta name="og:FCODE" property="og:FCODE" content="FCODE Company">
+    <meta name="robots" content="index, archive">
+    <!--b-5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--scss-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--ico-->
+    <link rel="icon" type="icon/fcode_icon" href="design/icon/fcode_icon.ico">
+    <!--gsap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js" integrity="sha512-6zTDRWNxo8vI6JZYDCwhrJpg5icK3P4HNnW3czsO5Scb3lAoPDam+/wF3eog4hxcl0h44d0XlIcFkuoSaWHQ2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--waypoit jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+<body>
+    
+    <div class="bg_01"></div>
+    <div class="bg_02"></div>
+    <div id="particles-js"></div>
+    <button onclick="myTopFunction()" id="myIconScroll" title="goUP"><img src="design/icon/scroll_up.svg" alt="scroll_up"></button>
+   
+    <div class="bg_011">
+        <div class="nav_hinnerr">
+          <nav style="z-index: 33;" class="navbar navbar-expand-lg my-navbar">
+            <div class="container container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="design/icon/white.png" alt="" width="100px">
+              </a>
+              <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto fw-bold">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#service">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#blog">Blog</a>
+                  </li>  
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">About</a>
+                  </li>    
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+          <div style="z-index: 33;" class="the_first container mt-3 text-white align-items-center d-flex justify-content-between ">
+            <div class="text">
+              <p class="fs-1 fw-bold">Welcome in FCODE-Design</p>
+              <p class="fs-1 fw-bold">We are Life, </p>
+              <p class="fs-1 fw-bold">Passion, creativity and work</p>
+              <p class="fs-1 fw-bold">are found in us #FCODE</p>
+            </div>
+            <div class="image">
+              <img src="design/wallpaper/fcodeidea.png" alt="" width="300px">
+            </div>
+          </div>
+    </div>
+
+    
+    
+
+    <div class="container p-5">
+      <div class="row ">
+        <h2 class="fw-bold text-center">Creator FCODE</h2>
+        <h6 class="subtitle mb-2 text-muted text-center p-3">How many Project Create FCODE</h6>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="design/photo/desinger.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h3><i class="card-title fa-solid fa-pen-ruler p-3 "></i> Design <span>333</span></h3>
+              <div class="count text-center">
+                <h1 class="counter">400</h1>
+              </div>
+              <div class="card-text">We create different designs to have more taste in your company</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="design/photo/uxui.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h3><i class="card-title fa-solid fa-compass-drafting p-3"></i> Web UX'Ui </h3>
+              <div class="count text-center">
+                <h1 class="counter">101</h1>
+              </div>
+              <div class="card-text">Creating a beautiful website is the best trick to excel</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="design/photo/developer.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h3><i class="card-title fa-solid fa-laptop-code p-3"></i> Website</h3>
+              <div class="count text-center">
+                <h1 class="counter">43</h1>
+              </div>
+              <div class="card-text">Usually to have a nice website, we have to have a good engine, and we enable that</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--brake-->
+    <div class="container">
+      <hr>
+    </div>
+
+    <!--product offert-->
+    <div id="service" class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-5">
+        <div class="col">
+          <div class="card shadow p-3 mb-5 bg-body rounded " style="width: 18rem;">
+            <p class="h1 text-center fw-bold p-3">Website</p>
+            <div class="card-body">
+              <h5 class="card-title text-center p-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+              </h5>
+              <p class="card-text">Basic packages, where you can start your own company</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Number page +2 <i class="fa-solid fa-check"></i></li>
+              <li class="list-group-item">Design for Social Media <i class="fa-solid fa-xmark"></i></li>
+              <li class="list-group-item">Responsive Design <i class="fa-solid fa-check"></i></li>
+              <li class="list-group-item">Navigation <i class="fa-solid fa-xmark"></i></li>
+              <li class="list-group-item">SEO <i class="fa-solid fa-xmark"></i></li>
+            </ul>
+            <div class="card-body text-center">
+              <a href="#" class="disabled card-link btn btn-secondary">Check <i class="fa-solid fa-check-double"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+            <p class="h1 text-center fw-bold p-3">Website</p>
+            <div class="card-body">
+              <h5 class="card-title text-center p-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </h5>
+              <p class="card-text">Premium package, where your company will be strongly promoted in the market</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Number page +5 <i class="fa-solid fa-check"></i></li>
+              <li class="list-group-item">Design for Social Media <i class="fa-solid fa-check"></i></li>
+              <li class="list-group-item">Responsive Design <i class="fa-solid fa-check"></i></li>
+              <li class="list-group-item">Navigation <i class="fa-solid fa-xmark"></i></li>
+              <li class="list-group-item">SEO <i class="fa-solid fa-xmark"></i></li>
+            </ul>
+            <div class="card-body text-center">
+              <a href="#" class="disabled card-link btn btn-secondary btn btn-success">Check <i class="fa-solid fa-check-double"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card  shadow p-3 mb-5 bg-body rounded " style="width: 18rem;">
+            <p class="h1 text-center fw-bold p-3">Website</p>
+            <div class="card-body">
+              <h5 class="card-title text-center p-3">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+              </h5>
+              <p class="card-text">Devil Package, where you will try out websites and designs on all digital platforms, creating and updating everything in your company.
+                support 24/7</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Number page +7 <i class="fa-solid fa-check"></i></li>
+              <li class="list-group-item">Design for Social Media <i class="fa-solid fa-check"></i></li>
+              <li class="list-group-item">Responsive Design <i class="fa-solid fa-check"></i></li>
+              <li class="list-group-item">Navigation <i class="fa-solid fa-check"></i></li>
+              <li class="list-group-item">SEO <i class="fa-solid fa-check"></i></li>
+            </ul>
+            <div class="card-body text-center">
+              <a href="#" class="disabled card-link btn btn-secondary btn btn-danger">Check <i class="fa-solid fa-check-double"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--according-->
+
+    <div id="blog" class="why_pop">
+      <div class="container">
+        <div class="p-5">
+          <h1 class="p-3" style="color: #001E6C;">Why you want to buy <span class="fw-bolder">Website</span></h1>
+          <p class="text-secondary p-3">Here you can find out about the 2022 market, and why you should have a website</p>
+        </div>
+        <div class="row ">
+          <div class="col">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item ">
+                <h2 class="accordion-header" id="headingOne">
+                  <button style="color: #035397;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h2 class="fw-bolder" style="color: #E8630A;">01 -</h2><span class="fw-bold">Why you should have a Website in your company</span>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Why Every Business Needs A Website - </strong>A business’s online presence, regardless of industry, can have a massive impact on its success. In this day and age, some businesses still don’t realize that a majority of their customers will visit their website before making a purchase.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button style="color: #035397;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h2 class="fw-bolder" style="color: #E8630A;">02 -</h2><span class="fw-bold">Why you should have a Website in your company</span>
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Why you need design for your business - </strong> We’re in a world now where just about every business is online in some form, in fact encountering a business’ website is often some people’s first encounter with a business at all. This, ontop of the fact that a lot of businesses now are 100% online means that the impression your website leaves is more important than ever. And how do we leave a good impression? Good design.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button style="color: #035397;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <h2 class="fw-bolder" style="color: #E8630A;"> 03 -</h2> <span class="fw-bold"> You know where you can find it all in one place</span>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>You know where you can find it all in one place</strong> It's very simple, you have to contact us, and the problem is related
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <img src="design/photo/vec03.png" alt="" width="500rem">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--profile card-->
+
+    <div class="p-5">
+      <div id="about" class=" container text-center">
+        <div class="row justify-content-around">
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="card">
+              <div class="img">
+                <img class="img-fluid rounded-top" src="design/wallpaper/wallpaper01.png" alt="fc">
+                <img class="rounded-circle" src="design/photo/festim.jpg" width="300rem" alt="festim">
+              </div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h3>Festim Reci</h3>
+                </div>
+                <div class="card-body">
+                  <div class="card-text">
+                    <p>Founder / Ceo</p>
+                    <p>Web Developer / Programmer / Industrial Engineering With Informatics</p>
+                  </div>
+                  <div class="card-link">
+                    <ul>
+                      <li>
+                        <a href="https://www.facebook.com/festim.reci.52/" target="_blank">
+                          <span>
+                            <i class="fa-brands fa-facebook-f"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://linkedin.com/in/FestimRe%C3%A7i" target="_blank">
+                          <span>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/festim_reqi" target="_blank">
+                          <span>
+                            <i class="fa-brands fa-twitter"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://dribbble.com/fesitm2020" target="_blank">
+                          <span>
+                            <i class="fa-brands fa-dribbble"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/festim.reqi15" target="_blank">
+                          <span>
+                            <i class="fa-brands fa-instagram"></i>
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div  class="col-lg-4 col-md-6 mt-5">
+            <div class="card">
+              <div class="img">
+                <img class="img-fluid rounded-top" src="design/wallpaper/wallpaper01.png" alt="fc">
+                <img class="rounded-circle" src="design/photo/shpetim.png" width="300rem" alt="festim">
+              </div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h3>Shpetim Hasallari</h3>
+                </div>
+                <div class="card-body">
+                  <div class="card-text">
+                    <p>CEO </p>
+                    <p>Mechanical Design Engineer /  Programmer / Industrial Engineering With Informatics</p>
+                  </div>
+                  <div class="card-link">
+                    <ul>
+                      <li>
+                        <a href="https://www.facebook.com/ANONYMOUS.TIMI" target="_blank">
+                          <span>
+                            <i class="fa-brands fa-facebook-f"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.linkedin.com/in/shp%C3%ABtim-hasallari-94a111199" target="_blank">
+                          <span>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/shpetim_hasallari/">
+                          <span>
+                            <i class="fa-brands fa-instagram"></i>
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--footer website-->
+    <footer>
+      <div class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+          <div class="row text-center text-md left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <img  src="design/icon/white.png" alt="fcode" width="200rem">
+              <div class="p-3">
+                <p  class="text-muted" >Has solutions to help your business grow online. Join the league of 58 smart agencies that outsource to us.</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-primary"><i class="fa-solid fa-anchor-circle-check"></i> Service</h5>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Blogger Outsearch</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">PPC Adversting</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Outsourcing</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">White-Labeled</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">CRM</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Careers</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">About Us</a>
+              </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-primary"><i class="fa-solid fa-location-arrow"></i> World Wide</h5>
+            <p>
+              <a href="tel:+38345642789" style="text-decoration: none;" class="text-white"><i class="fa-solid fa-phone"></i> Call now</a>
+            </p>
+            </div>  
+            <div class="col-md-3 col-lg-3 col-xl-2 mx-auto mt-3"">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-primary"><i class="fa-solid fa-earth-americas"></i> Explorer</h5>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Home</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">About</a>
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Blog</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xl-2 mx-auto mt-3"">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-primary"> <i class="fa-solid fa-asterisk"></i> Legal</h5>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;">Terms</a>
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;">Privacy</a>
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div   id="sticky-footer" class="footer_found flex-shrink-0 py-4 text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy; FCODE</small>
+        </div>
+      </div>
+    </footer>
+    
+
+    
+
+    <!--script-->
+    <script src="js/particlesjs-config.json"></script>
+    <script src="js/particles/particles.js"></script>
+    <script src="js/particles/app.js"></script>
+    <!--gsap-->
+    <script src="js/gs.js"></script>
+    <!--scc on top-->
+    <script src="js/scrollonTop.js"></script>
+    <!--jqnav-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+    <script src="js/navbar_sc.js"></script>
+    <!--jquery / bp  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/counterup/cup.js"></script>
+    
+</body>
+</html>
