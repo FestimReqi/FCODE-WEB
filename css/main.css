@@ -6,7 +6,7 @@
 .bg_011 {
   width: 100%;
   height: 100vh;
-  background-image: url(/design/wallpaper/wallpaper01.png);
+  background-image: url(../design/wallpaper/wallpaper01.png);
 }
 
 .navbar-scroll {
